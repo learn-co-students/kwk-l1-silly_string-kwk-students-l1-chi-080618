@@ -29,9 +29,9 @@ puts "There are #{letter_count} in #{big_word}"
 
 # Challenge 5: Add "wow" and "mom" to big_word
 
-bigger_word = big_word # Use String concatenation to add "wow" and "mom" to big_word
+bigger_word = big_word + "wow" + "mom" # Use String concatenation to add "wow" and "mom" to big_word
 
-new_letter_count = bigger_word.size
+new_letter_count = bigger_word.length
 
 puts "There are now #{new_letter_count} in #{bigger_word}"
 
@@ -49,3 +49,7 @@ sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples 
 sentence = sentence # Add your gsub chain here
 
 puts sentence
+puts"I'm not shouting".upcase
+puts"supercalifragilisticexpialidocious".length
+puts"love".upcase
+puts "love"+"heart"
